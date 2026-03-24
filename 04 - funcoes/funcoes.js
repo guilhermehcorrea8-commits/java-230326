@@ -72,6 +72,8 @@ contador(cont);
 let tab = Number(prompt("Número da tabuada: "));
 tabuada(tab);
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 //Saudação
 function saudacao() {
   console.log("Olá, seja bem-vindo!");
@@ -111,7 +113,7 @@ function media(n1, n2, n3) {
   return (n1 + n2 + n3) / 3;
 }
 
-//Converter Celsius para Fahrenheit
+// Converter Celsius para Fahrenheit
 function converterCelsius(celsius) {
   return (celsius * 9) / 5 + 32;
 }
