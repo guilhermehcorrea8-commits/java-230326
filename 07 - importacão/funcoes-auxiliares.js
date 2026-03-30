@@ -28,7 +28,6 @@ function tabuada(numero) {
   return resultado;
 }
 
-export { tabuada };
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function MaiorMenor(numeros) {
@@ -48,19 +47,18 @@ function MaiorMenor(numeros) {
   return { maior, menor };
 }
 
-export { MaiorMenor };
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function filtrarPares(Numeros){
-    let pares = [];
+function filtrarPares(Numeros) {
+  let pares = [];
 
-    for(let l = 1; l < Numeros.length; l++){
-        if(Numeros[l] % 2 === 0){
-            pares.push(Numeros[l])
-        }
+  for (let l = 1; l < Numeros.length; l++) {
+    if (Numeros[l] % 2 === 0) {
+      pares.push(Numeros[l]);
     }
-    return pares;
+  }
+  return pares;
 }
 
-export {filtrarPares}
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+export { tabuada, MaiorMenor, filtrarPares };
